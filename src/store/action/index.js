@@ -1,0 +1,10 @@
+export const REGISTER_USER = "register_user";
+export const LOGIN_USER = "login_user";
+export const GET_USER = "get_user";
+export const CREATE_POST = "create_post";
+export const CREATE_COMMENT = "create_comment";
+export const CREATE_LIKE = "create_like";
+export const GET_POSTS = "get_posts";
+export const LIKE = "like";
+export const DELETE_POST = "delete_post";
+export const GET_LIKE = "get_like";
