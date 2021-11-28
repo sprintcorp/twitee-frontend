@@ -30,7 +30,11 @@ export default {
             })
         },
         showBoxes(post) {
-            this.post_id = post;
+            if(this.post_id !== post) {
+                this.post_id = post;
+            }else{
+                this.post_id = '';
+            }
         },
         createPost() {
             const payload = {
